@@ -1,0 +1,49 @@
+#screen{
+    background-image:url(/Img/clock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100wv;
+
+}
+.medecin-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.medecin-card:hover {
+    animation: vibrate 0.3s linear infinite;
+}
+
+.medecin-image {
+    width: 100%;
+    height: auto;
+}
+
+.medecin-info {
+    padding: 20px;
+}
+
+.medecin-info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.medecin-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+}

@@ -1,0 +1,53 @@
+#long-button {
+    position: absolute;
+    top: 10px; /* Ajustez cette valeur selon vos besoins */
+    left: 10px; /* Ajustez cette valeur selon vos besoins */
+    margin: 0; /* Supprimez les marges si nécessaire */
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black; /* Ensure the lines are visible */
+    border-radius: 2px;
+}
+
+/* Define the grow-shrink animation */
+@keyframes grow-shrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5); /* Grow to 1.5 times the original size */
+    }
+}
+
+/* Apply the grow-shrink animation to the menu icon */
+.menu-icon {
+    animation: grow-shrink 2s infinite; /* Adjust the duration as needed */
+}
+
+/* Stop the animation on hover and click */
+.menu-icon:hover,
+.menu-icon:active {
+    animation-play-state: paused;
+}
+
+/* Styles pour les éléments du menu */
+.MuiMenuItem-root:hover {
+    background-color: aqua; /* Changez cette couleur selon vos besoins */
+}

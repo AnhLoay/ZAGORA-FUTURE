@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    color: #3b57c9;
+    text-shadow: 1px 4px 1px rgb(142, 53, 53);
+}
+table{
+    width: 60%;
+    border: 3px solid  #07d8ef;
+    margin-top: 30px;
+    margin-left: 12.5%;
+    padding: 5px;
+    border-radius: 14px;
+}
+#horaire{
+    background-image: url(/Img/clock.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+    background-size: cover;;
+}
+th:hover{
+    font-size: 18px;
+    
+
+}
+tr:hover{
+    color: blue;
+    
+}

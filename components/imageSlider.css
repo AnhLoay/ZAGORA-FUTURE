@@ -1,0 +1,41 @@
+.slider-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.background-slider {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(209, 221, 206);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Animation for fading in and out */
+@keyframes fade-in-out {
+    0%, 100% {
+        opacity: 0;
+    }
+    10%, 90% {
+        opacity: 1;
+    }
+}
+
+.fade-in-out {
+    animation: fade-in-out 5s infinite;
+
+}
