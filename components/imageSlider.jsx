@@ -13,7 +13,7 @@ const ImageSlider = () => {
     ];
 
     const messages = [
-        "Welcome to hospitale ZAGORA-FUTURE!",
+        "Welcome to hospitale IMA ZAGORA-FUTURE!",
         "We are glad to have you here.",
         "Explore our services and enjoy your stay.",
         "Votre sante est notre priorite.",

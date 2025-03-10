@@ -15,12 +15,14 @@
 
 .slider-text {
     position: absolute;
-    top: 50%;
+    width: fit-content;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(209, 221, 206);
+    color: rgb(34, 47, 226);
     text-align: center;
-    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    background: rgba(185, 173, 173, 0.5); 
+    user-select: none;
     padding: 20px;
     border-radius: 10px;
 }
